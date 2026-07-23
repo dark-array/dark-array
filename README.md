@@ -45,36 +45,9 @@ I work where **code meets business**: architecture, estimation, CI/CD, and hands
 
 ## Stack
 
-**Backend & apps**
-
-![C#](https://img.shields.io/badge/C%23-111827?style=flat-square&logo=csharp&logoColor=239120)
-![.NET](https://img.shields.io/badge/.NET-111827?style=flat-square&logo=dotnet&logoColor=512BD4)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-111827?style=flat-square&logo=dotnet&logoColor=512BD4)
-![EF Core](https://img.shields.io/badge/EF%20Core-111827?style=flat-square&logo=dotnet&logoColor=512BD4)
-![Blazor](https://img.shields.io/badge/Blazor-111827?style=flat-square&logo=blazor&logoColor=512BD4)
-![REST](https://img.shields.io/badge/REST%20API-111827?style=flat-square&logo=fastapi&logoColor=00D2FF)
-![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin&logoColor=7F52FF)
-![Android](https://img.shields.io/badge/Android-111827?style=flat-square&logo=android&logoColor=3DDC84)
-
-**Data**
-
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![T-SQL](https://img.shields.io/badge/T--SQL-111827?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Oracle](https://img.shields.io/badge/Oracle-111827?style=flat-square&logo=oracle&logoColor=F80000)
-![EF Core](https://img.shields.io/badge/Data%20modeling-111827?style=flat-square&logo=databricks&logoColor=FF3621)
-
-**Cloud & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-111827?style=flat-square&logo=microsoftazure&logoColor=0078D4)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-111827?style=flat-square&logo=azuredevops&logoColor=0078D4)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-111827?style=flat-square&logo=githubactions&logoColor=2088FF)
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032)
-![xUnit](https://img.shields.io/badge/xUnit-111827?style=flat-square&logo=dotnet&logoColor=512BD4)
-
-**Method:** `Scrum` · `Kanban` · `Estimation` · `Architecture` · `Client delivery`
+<p align="center">
+  <img src="assets/stack.svg" alt="Backend, Data, Cloud, Method stack" width="100%" />
+</p>
 
 ---
 
