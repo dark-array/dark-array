@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-label="Impact metrics">
+  <defs>
+    <style>
+      .n { font: 700 28px Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f0eb; }
+      .l { font: 500 13px Segoe UI, Helvetica, Arial, sans-serif; fill: #9aafa4; }
+      .card { fill: #121a17; stroke: #2a3a34; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect class="card" x="0" y="10" width="210" height="120" rx="14"/>
+  <rect class="card" x="230" y="10" width="210" height="120" rx="14"/>
+  <rect class="card" x="460" y="10" width="210" height="120" rx="14"/>
+  <rect class="card" x="690" y="10" width="210" height="120" rx="14"/>
+  <rect x="0" y="10" width="6" height="120" rx="3" fill="#296572"/>
+  <rect x="230" y="10" width="6" height="120" rx="3" fill="#a59264"/>
+  <rect x="460" y="10" width="6" height="120" rx="3" fill="#296572"/>
+  <rect x="690" y="10" width="6" height="120" rx="3" fill="#a59264"/>
+  <text class="n" x="28" y="62">4+</text>
+  <text class="l" x="28" y="92">years building</text>
+  <text class="n" x="258" y="62">10+</text>
+  <text class="l" x="258" y="92">systems delivered</text>
+  <text class="n" x="488" y="62">3</text>
+  <text class="l" x="488" y="92">industries</text>
+  <text class="n" x="718" y="62">50%</text>
+  <text class="l" x="718" y="92">faster key reports</text>
+</svg>

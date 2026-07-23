@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="How I focus">
+  <defs>
+    <style>
+      .card { fill: #121a17; stroke: #2a3a34; stroke-width: 1; }
+      .h { font: 700 16px Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f0eb; }
+      .p { font: 500 13px Segoe UI, Helvetica, Arial, sans-serif; fill: #9aafa4; }
+      .tag { font: 600 11px Segoe UI, Helvetica, Arial, sans-serif; fill: #a59264; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect class="card" x="0" y="0" width="430" height="110" rx="14"/>
+  <rect x="0" y="0" width="430" height="4" rx="2" fill="#296572"/>
+  <text class="tag" x="22" y="32">DELIVERY</text>
+  <text class="h" x="22" y="58">Ship with clarity</text>
+  <text class="p" x="22" y="82">Scope, timelines, testing, and go-live</text>
+  <rect class="card" x="470" y="0" width="430" height="110" rx="14"/>
+  <rect x="470" y="0" width="430" height="4" rx="2" fill="#a59264"/>
+  <text class="tag" x="492" y="32">ARCHITECTURE</text>
+  <text class="h" x="492" y="58">Design that scales</text>
+  <text class="p" x="492" y="82">APIs, EF Core, Blazor, SQL Server models</text>
+  <rect class="card" x="0" y="130" width="430" height="110" rx="14"/>
+  <rect x="0" y="130" width="430" height="4" rx="2" fill="#a59264"/>
+  <text class="tag" x="22" y="162">CLOUD</text>
+  <text class="h" x="22" y="188">Deliver on Azure</text>
+  <text class="p" x="22" y="212">Container Apps, Key Vault, DevOps, Docker</text>
+  <rect class="card" x="470" y="130" width="430" height="110" rx="14"/>
+  <rect x="470" y="130" width="430" height="4" rx="2" fill="#296572"/>
+  <text class="tag" x="492" y="162">LEADERSHIP</text>
+  <text class="h" x="492" y="188">Align people + tech</text>
+  <text class="p" x="492" y="212">Direction, estimation, stakeholder clarity</text>
+</svg>

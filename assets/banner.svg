@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Efrain Araya Fuentes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1210"/>
+      <stop offset="55%" stop-color="#121a17"/>
+      <stop offset="100%" stop-color="#0a1412"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#296572" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#296572" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a59264" stop-opacity="0.25"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#e8f0eb" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <circle cx="980" cy="60" r="120" fill="#296572" fill-opacity="0.12"/>
+  <circle cx="1080" cy="220" r="90" fill="#a59264" fill-opacity="0.10"/>
+
+  <text x="72" y="118" fill="#a59264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4">COSTA RICA</text>
+  <text x="72" y="178" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Efrain Araya Fuentes</text>
+  <text x="72" y="224" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24">Mid / Semi-Sr Tech Lead</text>
+  <text x="72" y="268" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill-opacity="0.85">.NET  ·  C#  ·  Azure  ·  SQL Server</text>
+
+  <rect x="72" y="286" width="72" height="3" rx="2" fill="#a59264"/>
+</svg>
