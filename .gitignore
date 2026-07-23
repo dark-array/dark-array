@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+package.json
+_render_*.py
+_render_*.js
+_t.svg
+_t.png
+*.log
