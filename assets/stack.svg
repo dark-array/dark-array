@@ -1,61 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="Tech stack">
-  <defs>
-    <style>
-      .panel { fill: #121a17; stroke: #2a3a34; stroke-width: 1; }
-      .label { font: 700 12px Segoe UI, Helvetica, Arial, sans-serif; fill: #a59264; letter-spacing: 0.6px; }
-      .chip { font: 600 11px Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f0eb; }
-      .chip-bg { fill: #1a2420; stroke: #334840; stroke-width: 1; }
-      .chip-hot { fill: #2a1518; stroke: #cc2927; stroke-width: 1; }
-      .chip-hot-t { font: 700 11px Segoe UI, Helvetica, Arial, sans-serif; fill: #ff6b6b; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" role="img" aria-label="Tech stack">
+  <rect x="0" y="0" width="880" height="200" rx="14" fill="#121a17" stroke="#2a3a34" stroke-width="1"/>
 
-  <rect class="panel" x="0" y="0" width="880" height="210" rx="14"/>
-
-  <!-- Backend -->
-  <text class="label" x="18" y="32">BACKEND</text>
-  <g transform="translate(110,14)">
-    <rect class="chip-bg" width="34" height="24" rx="6"/><text class="chip" x="17" y="16" text-anchor="middle">C#</text>
-    <rect class="chip-bg" x="40" width="44" height="24" rx="6"/><text class="chip" x="62" y="16" text-anchor="middle">.NET</text>
-    <rect class="chip-bg" x="90" width="78" height="24" rx="6"/><text class="chip" x="129" y="16" text-anchor="middle">ASP.NET</text>
-    <rect class="chip-bg" x="174" width="58" height="24" rx="6"/><text class="chip" x="203" y="16" text-anchor="middle">EF Core</text>
-    <rect class="chip-bg" x="238" width="52" height="24" rx="6"/><text class="chip" x="264" y="16" text-anchor="middle">Blazor</text>
-    <rect class="chip-bg" x="296" width="48" height="24" rx="6"/><text class="chip" x="320" y="16" text-anchor="middle">REST</text>
-    <rect class="chip-bg" x="350" width="42" height="24" rx="6"/><text class="chip" x="371" y="16" text-anchor="middle">Java</text>
-    <rect class="chip-bg" x="398" width="52" height="24" rx="6"/><text class="chip" x="424" y="16" text-anchor="middle">Kotlin</text>
-    <rect class="chip-bg" x="456" width="62" height="24" rx="6"/><text class="chip" x="487" y="16" text-anchor="middle">Android</text>
+  <text x="18" y="30" fill="#a59264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">BACKEND</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f0eb">
+    <rect x="110" y="12" width="34" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="127" y="28" text-anchor="middle">C#</text>
+    <rect x="150" y="12" width="44" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="172" y="28" text-anchor="middle">.NET</text>
+    <rect x="200" y="12" width="78" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="239" y="28" text-anchor="middle">ASP.NET</text>
+    <rect x="284" y="12" width="58" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="313" y="28" text-anchor="middle">EF Core</text>
+    <rect x="348" y="12" width="52" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="374" y="28" text-anchor="middle">Blazor</text>
+    <rect x="406" y="12" width="48" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="430" y="28" text-anchor="middle">REST</text>
+    <rect x="460" y="12" width="42" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="481" y="28" text-anchor="middle">Java</text>
+    <rect x="508" y="12" width="52" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="534" y="28" text-anchor="middle">Kotlin</text>
+    <rect x="566" y="12" width="62" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="597" y="28" text-anchor="middle">Android</text>
   </g>
 
-  <!-- Data -->
-  <text class="label" x="18" y="78">DATA</text>
-  <g transform="translate(110,60)">
-    <rect class="chip-hot" width="78" height="24" rx="6"/><text class="chip-hot-t" x="39" y="16" text-anchor="middle">SQL Server</text>
-    <rect class="chip-bg" x="84" width="48" height="24" rx="6"/><text class="chip" x="108" y="16" text-anchor="middle">T-SQL</text>
-    <rect class="chip-bg" x="138" width="78" height="24" rx="6"/><text class="chip" x="177" y="16" text-anchor="middle">PostgreSQL</text>
-    <rect class="chip-bg" x="222" width="54" height="24" rx="6"/><text class="chip" x="249" y="16" text-anchor="middle">Oracle</text>
-    <rect class="chip-bg" x="282" width="92" height="24" rx="6"/><text class="chip" x="328" y="16" text-anchor="middle">Data modeling</text>
+  <text x="18" y="74" fill="#a59264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">DATA</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600">
+    <rect x="110" y="56" width="78" height="24" rx="6" fill="#2a1518" stroke="#cc2927"/>
+    <text x="149" y="72" text-anchor="middle" fill="#ff6b6b" font-weight="700">SQL Server</text>
+    <rect x="194" y="56" width="48" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="218" y="72" text-anchor="middle" fill="#e8f0eb">T-SQL</text>
+    <rect x="248" y="56" width="78" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="287" y="72" text-anchor="middle" fill="#e8f0eb">PostgreSQL</text>
+    <rect x="332" y="56" width="54" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="359" y="72" text-anchor="middle" fill="#e8f0eb">Oracle</text>
+    <rect x="392" y="56" width="92" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="438" y="72" text-anchor="middle" fill="#e8f0eb">Data modeling</text>
   </g>
 
-  <!-- Cloud -->
-  <text class="label" x="18" y="124">CLOUD</text>
-  <g transform="translate(110,106)">
-    <rect class="chip-bg" width="48" height="24" rx="6"/><text class="chip" x="24" y="16" text-anchor="middle">Azure</text>
-    <rect class="chip-bg" x="54" width="54" height="24" rx="6"/><text class="chip" x="81" y="16" text-anchor="middle">Docker</text>
-    <rect class="chip-bg" x="114" width="88" height="24" rx="6"/><text class="chip" x="158" y="16" text-anchor="middle">Azure DevOps</text>
-    <rect class="chip-bg" x="208" width="48" height="24" rx="6"/><text class="chip" x="232" y="16" text-anchor="middle">CI/CD</text>
-    <rect class="chip-bg" x="262" width="36" height="24" rx="6"/><text class="chip" x="280" y="16" text-anchor="middle">Git</text>
-    <rect class="chip-bg" x="304" width="46" height="24" rx="6"/><text class="chip" x="327" y="16" text-anchor="middle">xUnit</text>
+  <text x="18" y="118" fill="#a59264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">CLOUD</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f0eb">
+    <rect x="110" y="100" width="48" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="134" y="116" text-anchor="middle">Azure</text>
+    <rect x="164" y="100" width="54" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="191" y="116" text-anchor="middle">Docker</text>
+    <rect x="224" y="100" width="88" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="268" y="116" text-anchor="middle">Azure DevOps</text>
+    <rect x="318" y="100" width="48" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="342" y="116" text-anchor="middle">CI/CD</text>
+    <rect x="372" y="100" width="36" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="390" y="116" text-anchor="middle">Git</text>
+    <rect x="414" y="100" width="46" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="437" y="116" text-anchor="middle">xUnit</text>
   </g>
 
-  <!-- Method -->
-  <text class="label" x="18" y="170">METHOD</text>
-  <g transform="translate(110,152)">
-    <rect class="chip-bg" width="52" height="24" rx="6"/><text class="chip" x="26" y="16" text-anchor="middle">Scrum</text>
-    <rect class="chip-bg" x="58" width="58" height="24" rx="6"/><text class="chip" x="87" y="16" text-anchor="middle">Kanban</text>
-    <rect class="chip-bg" x="122" width="72" height="24" rx="6"/><text class="chip" x="158" y="16" text-anchor="middle">Estimation</text>
-    <rect class="chip-bg" x="200" width="82" height="24" rx="6"/><text class="chip" x="241" y="16" text-anchor="middle">Architecture</text>
-    <rect class="chip-bg" x="288" width="92" height="24" rx="6"/><text class="chip" x="334" y="16" text-anchor="middle">Client delivery</text>
+  <text x="18" y="162" fill="#a59264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">METHOD</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#e8f0eb">
+    <rect x="110" y="144" width="52" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="136" y="160" text-anchor="middle">Scrum</text>
+    <rect x="168" y="144" width="58" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="197" y="160" text-anchor="middle">Kanban</text>
+    <rect x="232" y="144" width="72" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="268" y="160" text-anchor="middle">Estimation</text>
+    <rect x="310" y="144" width="82" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="351" y="160" text-anchor="middle">Architecture</text>
+    <rect x="398" y="144" width="92" height="24" rx="6" fill="#1a2420" stroke="#334840"/>
+    <text x="444" y="160" text-anchor="middle">Client delivery</text>
   </g>
 
-  <text style="font: 500 11px Segoe UI, Helvetica, Arial, sans-serif; fill: #6f857c" x="18" y="198">Primary data stack: SQL Server · also Oracle &amp; PostgreSQL</text>
+  <text x="18" y="188" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Primary data stack: SQL Server · also Oracle and PostgreSQL</text>
 </svg>

@@ -1,42 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280" role="img" aria-label="How I work">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="How I work">
   <defs>
-    <style>
-      .box { fill: #121a17; stroke: #2a3a34; stroke-width: 1.5; }
-      .box-accent { fill: #152220; stroke: #296572; stroke-width: 1.5; }
-      .box-gold { fill: #1a1914; stroke: #a59264; stroke-width: 1.5; }
-      .t { font: 600 14px Segoe UI, Helvetica, Arial, sans-serif; fill: #e8f0eb; }
-      .s { font: 500 11px Segoe UI, Helvetica, Arial, sans-serif; fill: #9aafa4; }
-      .line { stroke: #3d524a; stroke-width: 2; fill: none; }
-      .arrow { fill: #a59264; }
-    </style>
     <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" class="arrow"/>
+      <path d="M0,0 L6,3 L0,6 Z" fill="#a59264"/>
     </marker>
   </defs>
-  <rect class="box" x="40" y="24" width="150" height="48" rx="10"/>
-  <text class="t" x="115" y="53" text-anchor="middle">Idea / pain</text>
-  <path class="line" d="M190 48 H230" marker-end="url(#arr)"/>
-  <rect class="box-accent" x="230" y="24" width="150" height="48" rx="10"/>
-  <text class="t" x="305" y="53" text-anchor="middle">Scope + estimate</text>
-  <path class="line" d="M380 48 H420" marker-end="url(#arr)"/>
-  <rect class="box-accent" x="420" y="24" width="150" height="48" rx="10"/>
-  <text class="t" x="495" y="53" text-anchor="middle">Architecture</text>
-  <path class="line" d="M570 48 H610" marker-end="url(#arr)"/>
-  <rect class="box-accent" x="610" y="24" width="150" height="48" rx="10"/>
-  <text class="t" x="685" y="53" text-anchor="middle">Build</text>
-  <path class="line" d="M760 48 H800" marker-end="url(#arr)"/>
-  <rect class="box-gold" x="800" y="24" width="90" height="48" rx="10"/>
-  <text class="t" x="845" y="46" text-anchor="middle" font-size="12">Go-live</text>
-  <text class="s" x="845" y="62" text-anchor="middle">+ iterate</text>
-  <path class="line" d="M495 72 V110"/>
-  <path class="line" d="M685 72 V110"/>
-  <rect class="box" x="400" y="110" width="190" height="88" rx="12"/>
-  <text class="t" x="495" y="136" text-anchor="middle">Architecture</text>
-  <text class="s" x="495" y="158" text-anchor="middle">SQL Server models</text>
-  <text class="s" x="495" y="176" text-anchor="middle">Azure · CI/CD · security</text>
-  <rect class="box" x="590" y="110" width="190" height="88" rx="12"/>
-  <text class="t" x="685" y="136" text-anchor="middle">Build</text>
-  <text class="s" x="685" y="158" text-anchor="middle">.NET APIs · Blazor</text>
-  <text class="s" x="685" y="176" text-anchor="middle">Kotlin / Android · Web</text>
-  <text class="s" x="460" y="240">From business pain ’ production systems, with clear ownership at every step.</text>
+
+  <rect x="40" y="24" width="150" height="48" rx="10" fill="#121a17" stroke="#2a3a34" stroke-width="1.5"/>
+  <text x="115" y="53" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Idea / pain</text>
+
+  <path d="M190 48 H230" stroke="#3d524a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <rect x="230" y="24" width="150" height="48" rx="10" fill="#152220" stroke="#296572" stroke-width="1.5"/>
+  <text x="305" y="53" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Scope + estimate</text>
+
+  <path d="M380 48 H420" stroke="#3d524a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <rect x="420" y="24" width="150" height="48" rx="10" fill="#152220" stroke="#296572" stroke-width="1.5"/>
+  <text x="495" y="53" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Architecture</text>
+
+  <path d="M570 48 H610" stroke="#3d524a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <rect x="610" y="24" width="150" height="48" rx="10" fill="#152220" stroke="#296572" stroke-width="1.5"/>
+  <text x="685" y="53" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Build</text>
+
+  <path d="M760 48 H800" stroke="#3d524a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <rect x="800" y="24" width="90" height="48" rx="10" fill="#1a1914" stroke="#a59264" stroke-width="1.5"/>
+  <text x="845" y="46" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Go-live</text>
+  <text x="845" y="62" text-anchor="middle" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">+ iterate</text>
+
+  <path d="M495 72 V110" stroke="#3d524a" stroke-width="2" fill="none"/>
+  <path d="M685 72 V110" stroke="#3d524a" stroke-width="2" fill="none"/>
+
+  <rect x="400" y="110" width="190" height="88" rx="12" fill="#121a17" stroke="#2a3a34" stroke-width="1.5"/>
+  <text x="495" y="136" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Architecture</text>
+  <text x="495" y="158" text-anchor="middle" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">SQL Server models</text>
+  <text x="495" y="176" text-anchor="middle" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Azure · CI/CD · security</text>
+
+  <rect x="590" y="110" width="190" height="88" rx="12" fill="#121a17" stroke="#2a3a34" stroke-width="1.5"/>
+  <text x="685" y="136" text-anchor="middle" fill="#e8f0eb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Build</text>
+  <text x="685" y="158" text-anchor="middle" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">.NET APIs · Blazor</text>
+  <text x="685" y="176" text-anchor="middle" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Kotlin / Android · Web</text>
+
+  <text x="460" y="240" fill="#9aafa4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">From business pain to production systems, with clear ownership at every step.</text>
 </svg>
