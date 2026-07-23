@@ -26,7 +26,7 @@ I work where **code meets business**: architecture, estimation, CI/CD, and hands
 > Clean architecture. Honest estimates. Software that holds up in production — not just in demos.
 
 <p align="center">
-  <img src="assets/metrics.svg" alt="4+ years · 10+ systems · 3 industries · 50% faster key reports" width="100%" />
+  <img src="assets/metrics.png" alt="4+ years · 10+ systems · 3 industries · 50% faster key reports" width="100%" />
 </p>
 
 ---
@@ -34,11 +34,11 @@ I work where **code meets business**: architecture, estimation, CI/CD, and hands
 ## How I work
 
 <p align="center">
-  <img src="assets/workflow.svg" alt="Idea to go-live workflow" width="100%" />
+  <img src="assets/workflow.png" alt="Idea to go-live workflow" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/focus.svg" alt="Delivery, Architecture, Cloud, Leadership" width="100%" />
+  <img src="assets/focus.png" alt="Delivery, Architecture, Cloud, Leadership" width="100%" />
 </p>
 
 ---
@@ -46,7 +46,7 @@ I work where **code meets business**: architecture, estimation, CI/CD, and hands
 ## Stack
 
 <p align="center">
-  <img src="assets/stack.svg" alt="Backend, Data, Cloud, Method stack" width="100%" />
+  <img src="assets/stack.png" alt="Backend, Data, Cloud, Method stack" width="100%" />
 </p>
 
 ---
